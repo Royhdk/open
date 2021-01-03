@@ -1,0 +1,2 @@
+C:\Users\KX53\Desktop\操作系统课程设计\操作系统1.0\Debug\操作系统1.0.exe
+C:\Users\KX53\Desktop\操作系统课程设计\操作系统1.0\Debug\操作系统1.0.pdb

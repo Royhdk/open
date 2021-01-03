@@ -1,0 +1,49 @@
+#include<iostream>
+#include<ctime>
+#include<windows.h>
+using namespace std;
+
+void menu()
+{
+	system("cls");
+	cout << "============主菜单============" << endl;
+	cout << "*1.FIFO置换算法              *" << endl;
+	cout << "*2.LRU置换算法               *" << endl;
+	cout << "*0.退出                      *" << endl;
+	cout << "==============================" << endl;
+}
+void FIFO(){}
+void LRU() {}
+void caozuo()
+{
+	char n;
+	while (1)
+	{
+		menu();
+		cin >> n;
+		if (n == '1')
+		{
+			FIFO();
+		}
+		else if (n == '2')
+		{
+			LRU();
+		}
+		else if (n == '0') 
+		{
+			system("cls");
+			cout << "退出成功！！！" << endl;
+			break; 
+		}
+		else
+		{
+			cout << "输入有误，请重新输入！！！" << endl;
+			Sleep(2000);           //延时2秒
+		}
+	}
+}
+
+void main()
+{
+	caozuo();
+}

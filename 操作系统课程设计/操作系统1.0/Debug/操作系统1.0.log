@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\KX53\Desktop\操作系统课程设计\操作系统1.0\源.cpp(262,1): warning C4326: “main”的返回类型应为“int”而非“void”
+C:\Users\KX53\Desktop\操作系统课程设计\操作系统1.0\源.cpp(284,14): warning C4102: “case0”: 未引用的标签
+  操作系统1.0.vcxproj -> C:\Users\KX53\Desktop\操作系统课程设计\操作系统1.0\Debug\操作系统1.0.exe
